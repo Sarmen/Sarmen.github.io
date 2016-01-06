@@ -3,6 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  padding-top: 100px;
   padding-bottom: 40px;
   color: #5a5a5a;
 }
@@ -33,33 +34,10 @@ body {
   width: auto;
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
+.startoff p {
+	font-family: ariel;
+    font-size: 120%;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -76,22 +54,6 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -114,14 +76,7 @@ body {
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
+  
   .featurette-heading {
     font-size: 50px;
   }
