@@ -42,7 +42,7 @@ img {
 
 .item{
 	background-color:#CBECF5;
-	margin-top: -12px; 
+	margin-top: -12px ; 
 }
 
 .startoff p {
@@ -68,7 +68,16 @@ img {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
+@media (min-width: 767px) {
+	.navbar-wrapper {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 320px) {
+	.navbar-wrapper {
+    margin-top: 20px;
+  }
+}
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
