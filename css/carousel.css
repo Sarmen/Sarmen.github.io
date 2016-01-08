@@ -3,9 +3,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 100px;
-  padding-bottom: 40px;
-  color: #5a5a5a;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	color: #5a5a5a;
+	text-align: center;
 }
 
 
@@ -33,10 +34,13 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-.startoff .imgage-container {
-	padding-left: 420px;
-	
+.item{
+	background-color:#CBECF5;
 }
 
 .startoff p {
