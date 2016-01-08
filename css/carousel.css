@@ -43,6 +43,7 @@ img {
 .item{
 	background-color:#CBECF5;
 	margin-top: -12px ; 
+	box-shadow: 0 10px 6px -6px #777;
 }
 
 .startoff p {
