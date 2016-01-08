@@ -34,6 +34,11 @@ body {
   width: auto;
 }
 
+.startoff .imgage-container {
+	padding-left: 420px;
+	
+}
+
 .startoff p {
 	font-family: ariel;
     font-size: 120%;
