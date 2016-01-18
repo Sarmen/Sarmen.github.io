@@ -34,10 +34,13 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 img {
     max-width: 100%;
     height: auto;
+	
 }
 
 .item{
@@ -51,6 +54,10 @@ img {
     font-size: 120%;
 }
 
+#footer{
+	bottom:0;
+	left: 45%;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
